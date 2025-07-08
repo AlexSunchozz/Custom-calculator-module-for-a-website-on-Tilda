@@ -1,0 +1,100 @@
+/* Иконки соц. сетей в формах */
+.t390__social {
+    display: none !important;
+}
+
+.t-popup__block-close-button svg g {
+    fill: white !important;
+}
+
+/* Стили кнопок на калькуляторе */
+.t-inputquantity__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    padding: 0 17px !important;
+}
+
+@media screen and (max-width: 640px) {
+    .t-inputquantity__wrapper {
+        -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+}
+
+.t-inputquantity__btn {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    padding: 0 !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.t-inputquantity__wrapper input {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.t-calc__postfix-text {
+    font-weight: 300 !important;
+}
+
+/* Радиокнопки */
+.t-radio__wrapper {
+    margin-top: 0px !important;
+}
+
+.t-radio__wrapper fieldset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0 !important;
+}
+
+.t-radio__wrapper fieldset label {
+    margin: 0 !important;
+    height: 40px !important;
+}
+
+.t-radio__wrapper fieldset label:first-child {
+    width: 96px !important;
+    margin-right: 16px !important;
+}
+
+.t-radio__wrapper fieldset label:last-child {
+    width: 108px !important;
+}
+
+@media screen and (max-width: 640px) {
+    .t-radio__wrapper fieldset label:first-child {
+        width: 120px !important;
+        margin-right: 16px !important;
+    }
+
+    .t-radio__wrapper fieldset label:last-child {
+        width: 120px !important;
+    }
+}
+
+/* Стили кнопок табов */
+.tab-btn.active .tn-atom {
+    background-color: white;
+    color: #555555 !important;
+    border: 1px solid white;
+}
